@@ -2,11 +2,11 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 
 const links = [
-  { to: "/", label: "Home" },
-  { to: "/work", label: "Work" },
-  { to: "/about", label: "About" },
-  { to: "/testimonials", label: "Testimonials" },
-  { to: "/contact", label: "Contact" },
+  { to: "/", label: "Úvod" },
+  { to: "/work", label: "Realizace" },
+  { to: "/about", label: "O nás" },
+  { to: "/testimonials", label: "Reference" },
+  { to: "/contact", label: "Kontakt" },
 ] as const;
 
 export function SiteHeader() {
@@ -40,12 +40,12 @@ export function SiteHeader() {
             to="/contact"
             className="inline-flex items-center justify-center rounded-full bg-brand px-5 py-2 text-xs font-bold text-white transition-transform active:scale-95"
           >
-            Start a project
+            Poptat projekt
           </Link>
         </nav>
 
         <button
-          aria-label="Toggle menu"
+          aria-label="Přepnout menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
           className="-mr-2 p-2 md:hidden"

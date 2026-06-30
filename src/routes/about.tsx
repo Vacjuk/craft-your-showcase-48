@@ -4,17 +4,17 @@ import portrait from "@/assets/about-portrait.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Vantage Design Studio" },
+      { title: "O nás — Vantage Design Studio" },
       {
         name: "description",
         content:
-          "Vantage is an independent web studio building bespoke, high-performance websites. Meet the team, learn our process.",
+          "Vantage je nezávislé webové studio stavějící weby na míru s důrazem na výkon. Poznejte tým a náš proces.",
       },
-      { property: "og:title", content: "About Vantage" },
+      { property: "og:title", content: "O studiu Vantage" },
       {
         property: "og:description",
         content:
-          "An independent studio building bespoke websites with strategy, craft, and care.",
+          "Nezávislé studio stavějící weby na míru se strategií, řemeslem a péčí.",
       },
     ],
   }),
@@ -27,11 +27,11 @@ function About() {
       <section className="px-6 pb-16 pt-16 md:pt-24">
         <div className="mx-auto max-w-6xl">
           <p className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">
-            About us
+            O nás
           </p>
           <h1 className="max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
-            A small studio doing serious work for brands that care about the
-            details.
+            Malé studio, které dělá vážnou práci pro značky, jimž záleží na
+            detailech.
           </h1>
         </div>
       </section>
@@ -42,7 +42,7 @@ function About() {
             <div className="overflow-hidden rounded-2xl outline outline-1 -outline-offset-1 outline-black/5">
               <img
                 src={portrait}
-                alt="Inside the Vantage studio"
+                alt="V interiéru studia Vantage"
                 width={800}
                 height={1000}
                 loading="lazy"
@@ -52,23 +52,23 @@ function About() {
           </div>
 
           <div className="md:col-span-3 md:pt-4">
-            <h2 className="text-2xl font-bold md:text-3xl">Our story</h2>
+            <h2 className="text-2xl font-bold md:text-3xl">Náš příběh</h2>
             <div className="mt-6 space-y-5 text-muted-foreground">
               <p>
-                Vantage started in 2019 with a simple frustration: the gap
-                between the websites our clients deserved and the ones the
-                industry was shipping. Bloated builders, recycled templates,
-                missed deadlines.
+                Vantage vzniklo v roce 2019 z jednoduché frustrace: z propasti
+                mezi weby, jaké si naši klienti zasloužili, a tím, co obor
+                doopravdy dodával. Nafouknuté buildery, recyklované šablony,
+                zmeškané termíny.
               </p>
               <p>
-                We're a small, senior team — designers who code and engineers
-                who care about typography. Every project gets the same two
-                people from kickoff to launch. No account managers, no handoffs,
-                no surprises.
+                Jsme malý seniorní tým — designéři, kteří kódují, a vývojáři,
+                kterým záleží na typografii. Každý projekt vedou stejní dva
+                lidé od kick-offu po spuštění. Žádní account manažeři, žádné
+                předávání, žádná překvapení.
               </p>
               <p>
-                We work with founders, marketing leads, and creative directors
-                who treat their website as a product, not a brochure.
+                Spolupracujeme se zakladateli, marketingovými šéfy a kreativními
+                řediteli, kteří vnímají web jako produkt, ne jako brožuru.
               </p>
             </div>
           </div>
@@ -77,13 +77,13 @@ function About() {
 
       <section className="border-y border-brand/5 bg-muted/40 px-6 py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-2xl font-bold md:text-3xl">How we work</h2>
+          <h2 className="text-2xl font-bold md:text-3xl">Jak pracujeme</h2>
           <div className="mt-10 grid gap-10 md:grid-cols-4">
             {[
-              { n: "01", t: "Discover", d: "A working session to map goals, audience, and what success looks like." },
-              { n: "02", t: "Design", d: "Strategy translated into a design system and key pages — reviewed early, reviewed often." },
-              { n: "03", t: "Build", d: "Fast, semantic, accessible code. CMS integration so your team can keep momentum." },
-              { n: "04", t: "Launch & care", d: "We stay close after launch, monitor performance, and iterate when it matters." },
+              { n: "01", t: "Objevení", d: "Pracovní workshop, kde zmapujeme cíle, publikum a co znamená úspěch." },
+              { n: "02", t: "Návrh", d: "Strategie převedená do design systému a klíčových stránek — recenze brzy a často." },
+              { n: "03", t: "Vývoj", d: "Rychlý, sémantický a přístupný kód. Napojení na CMS, aby si tým udržel tempo." },
+              { n: "04", t: "Spuštění & péče", d: "Po spuštění zůstáváme blízko, sledujeme výkon a iterujeme tam, kde to dává smysl." },
             ].map((s) => (
               <div key={s.n}>
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">{s.n}</p>
@@ -97,12 +97,12 @@ function About() {
 
       <section className="px-6 py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-2xl font-bold md:text-3xl">What we believe</h2>
+          <h2 className="text-2xl font-bold md:text-3xl">V co věříme</h2>
           <div className="mt-10 grid gap-8 md:grid-cols-3">
             {[
-              ["Craft over volume", "We ship fewer sites a year so each one gets the attention it needs."],
-              ["Performance is design", "A slow site is a broken site. Speed and accessibility aren't optional."],
-              ["You own everything", "Code, assets, content — all yours. No platform lock-in, ever."],
+              ["Řemeslo před objemem", "Ročně spustíme méně webů, aby každý dostal pozornost, kterou potřebuje."],
+              ["Výkon je součást designu", "Pomalý web je rozbitý web. Rychlost a přístupnost nejsou volitelné."],
+              ["Vše patří vám", "Kód, podklady, obsah — všechno je vaše. Žádná závislost na platformě."],
             ].map(([t, d]) => (
               <div key={t} className="rounded-2xl border border-brand/5 bg-card p-8">
                 <h3 className="text-lg font-bold">{t}</h3>
@@ -112,13 +112,13 @@ function About() {
           </div>
 
           <div className="mt-16 flex flex-col items-start gap-4 border-t border-brand/5 pt-10 md:flex-row md:items-center md:justify-between">
-            <p className="text-xl font-bold">Curious to see the work?</p>
+            <p className="text-xl font-bold">Zvědaví na realizace?</p>
             <div className="flex gap-3">
               <Link to="/work" className="inline-flex items-center justify-center rounded-full bg-brand px-6 py-3 text-sm font-bold text-white">
-                View work
+                Naše realizace
               </Link>
               <Link to="/contact" className="inline-flex items-center justify-center rounded-full border border-brand/15 px-6 py-3 text-sm font-bold">
-                Get in touch
+                Ozvěte se
               </Link>
             </div>
           </div>

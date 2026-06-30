@@ -5,17 +5,17 @@ import { testimonials } from "@/lib/testimonials";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vantage — Custom websites for brands that refuse to look like everyone else" },
+      { title: "Vantage — Weby na míru pro značky, které nechtějí splynout" },
       {
         name: "description",
         content:
-          "Vantage is a boutique studio designing and building bespoke, high-performance websites for ambitious brands.",
+          "Vantage je butikové studio, které navrhuje a staví weby na míru s důrazem na výkon pro ambiciózní značky.",
       },
-      { property: "og:title", content: "Vantage — Custom websites for ambitious brands" },
+      { property: "og:title", content: "Vantage — Weby na míru pro ambiciózní značky" },
       {
         property: "og:description",
         content:
-          "Boutique studio crafting bespoke, high-performance websites. View selected work and start a project.",
+          "Butikové studio tvořící rychlé weby na míru. Prohlédněte si výběr realizací a zadejte projekt.",
       },
     ],
   }),
@@ -32,27 +32,27 @@ function Home() {
       <section className="px-6 pb-20 pt-16 md:pt-28">
         <div className="mx-auto max-w-6xl">
           <p className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">
-            Independent Web Studio · Est. 2019
+            Nezávislé web studio · Od roku 2019
           </p>
           <h1 className="max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight md:text-7xl">
-            We build <span className="text-accent">digital</span> artifacts.
+            Tvoříme <span className="text-accent">digitální</span> artefakty.
           </h1>
           <p className="mt-6 max-w-md text-lg text-muted-foreground md:text-xl">
-            Tailor-made websites for brands that refuse to look like everyone
-            else. Strategy, design, and engineering — under one roof.
+            Weby šité na míru značkám, které odmítají vypadat jako všichni
+            ostatní. Strategie, design i vývoj — pod jednou střechou.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link
               to="/work"
               className="inline-flex items-center justify-center rounded-full bg-brand px-8 py-4 text-sm font-bold text-white transition-transform active:scale-95"
             >
-              View our work
+              Naše realizace
             </Link>
             <Link
               to="/contact"
               className="inline-flex items-center justify-center rounded-full border border-brand/15 px-8 py-4 text-sm font-bold text-brand transition-colors hover:bg-brand hover:text-white"
             >
-              Start a project
+              Poptat projekt
             </Link>
           </div>
         </div>
@@ -64,18 +64,18 @@ function Home() {
           {[
             {
               n: "01",
-              t: "Brand-led design",
-              d: "We start with what makes you different, then design every pixel around it.",
+              t: "Design vedený značkou",
+              d: "Začínáme tím, co vás odlišuje, a kolem toho stavíme každý pixel.",
             },
             {
               n: "02",
-              t: "Custom build",
-              d: "Lean, semantic code. No bloated page-builders. Yours to own, forever.",
+              t: "Vývoj na míru",
+              d: "Štíhlý, sémantický kód. Žádné nafouknuté page-buildery. Patří vám napořád.",
             },
             {
               n: "03",
-              t: "Ongoing care",
-              d: "Optional retainers for content, iteration, and performance — when you need us.",
+              t: "Průběžná péče",
+              d: "Volitelné měsíční partnerství pro obsah, iterace a výkon — když to potřebujete.",
             },
           ].map((s) => (
             <div key={s.n}>
@@ -94,10 +94,10 @@ function Home() {
         <div className="mx-auto max-w-6xl">
           <div className="mb-10 flex items-end justify-between border-b border-brand/10 pb-4">
             <h2 className="text-2xl font-bold tracking-tight md:text-3xl">
-              Selected Work
+              Vybrané realizace
             </h2>
             <Link to="/work" className="text-xs font-bold uppercase tracking-widest text-muted-foreground hover:text-brand">
-              All projects →
+              Všechny projekty →
             </Link>
           </div>
 
@@ -128,19 +128,19 @@ function Home() {
       <section className="bg-brand px-6 py-20 text-white">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-white/50">
-            About the studio
+            O studiu
           </h2>
           <p className="max-w-3xl text-2xl font-medium leading-relaxed md:text-3xl">
-            A boutique studio focused on speed, accessibility, and conversion-led
-            design. Our code is lean, our pixels are sharp, and our process is
-            transparent — from first call to launch day.
+            Butikové studio zaměřené na rychlost, přístupnost a design vedený
+            konverzí. Kód máme štíhlý, pixely ostré a proces transparentní —
+            od prvního hovoru až po spuštění.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-8 md:grid-cols-4">
             {[
-              ["60+", "Sites shipped"],
-              ["98", "Avg. Lighthouse score"],
-              ["4 wks", "Typical timeline"],
-              ["100%", "Independently owned"],
+              ["60+", "Spuštěných webů"],
+              ["98", "Průměrné Lighthouse skóre"],
+              ["4 týdny", "Obvyklý časový plán"],
+              ["100%", "Nezávislé vlastnictví"],
             ].map(([k, v]) => (
               <div key={v}>
                 <p className="text-3xl font-extrabold md:text-4xl">{k}</p>
@@ -152,7 +152,7 @@ function Home() {
             to="/about"
             className="mt-10 inline-flex items-center text-sm font-bold text-white underline underline-offset-4"
           >
-            More about us →
+            Více o nás →
           </Link>
         </div>
       </section>
@@ -161,10 +161,10 @@ function Home() {
       <section className="bg-accent/5 px-6 py-20">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">
-            Kind words
+            Milá slova
           </p>
           <p className="mt-6 text-2xl font-medium italic leading-relaxed md:text-3xl">
-            "{quote.quote}"
+            „{quote.quote}"
           </p>
           <p className="mt-6 text-sm font-bold">
             {quote.name} <span className="font-normal text-muted-foreground">— {quote.role}</span>
@@ -173,7 +173,7 @@ function Home() {
             to="/testimonials"
             className="mt-8 inline-flex text-xs font-bold uppercase tracking-widest hover:text-accent"
           >
-            Read more →
+            Číst další →
           </Link>
         </div>
       </section>
