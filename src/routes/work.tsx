@@ -4,17 +4,17 @@ import { projects } from "@/lib/projects";
 export const Route = createFileRoute("/work")({
   head: () => ({
     meta: [
-      { title: "Work — Vantage Design Studio" },
+      { title: "Realizace — Vantage Design Studio" },
       {
         name: "description",
         content:
-          "A gallery of recent custom websites by Vantage — e-commerce, editorial, portfolios, and booking platforms.",
+          "Galerie nedávných webů na míru od Vantage — e-shopy, editorial, portfolia a rezervační platformy.",
       },
-      { property: "og:title", content: "Selected Work — Vantage" },
+      { property: "og:title", content: "Vybrané realizace — Vantage" },
       {
         property: "og:description",
         content:
-          "Selected custom websites we've designed and built for ambitious brands.",
+          "Vybrané weby na míru, které jsme navrhli a vyvinuli pro ambiciózní značky.",
       },
     ],
   }),
@@ -29,11 +29,11 @@ function Work() {
           Portfolio · 2023–24
         </p>
         <h1 className="max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
-          Custom builds for brands with a point of view.
+          Weby na míru pro značky s vlastním názorem.
         </h1>
         <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-          A selection of recent projects. Each one was designed and built from
-          scratch — no themes, no shortcuts.
+          Výběr nedávných projektů. Každý byl navržen i postaven od nuly —
+          žádné šablony, žádné zkratky.
         </p>
 
         <div className="mt-16 grid gap-12 md:grid-cols-2 md:gap-x-8 md:gap-y-16">
@@ -75,13 +75,13 @@ function Work() {
 
         <div className="mt-24 flex flex-col items-start gap-4 border-t border-brand/5 pt-12 md:flex-row md:items-center md:justify-between">
           <p className="max-w-md text-2xl font-bold">
-            Have a project in mind? We'd love to hear about it.
+            Máte v hlavě projekt? Rádi si o něm poslechneme.
           </p>
           <Link
             to="/contact"
             className="inline-flex items-center justify-center rounded-full bg-brand px-8 py-4 text-sm font-bold text-white"
           >
-            Start a project
+            Poptat projekt
           </Link>
         </div>
       </div>
