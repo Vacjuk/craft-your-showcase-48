@@ -19,7 +19,7 @@ export function SiteFooter() {
               href="mailto:ahoj@vantage.studio"
               className="border-b border-brand pb-1 text-lg font-bold"
             >
-              ahoj@vantage.studio
+              vantage@studio.com
             </a>
           </div>
           <div>
