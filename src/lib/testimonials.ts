@@ -29,21 +29,21 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Spolupráce s Vantage působila jako bychom do týmu přibrali seniorního designéra — bez režie. Jasné termíny, ostrá práce, žádné komplikace.",
+      "Spolupráce s Vantage působila jako bychom do týmu přibrali seniorního designéra — bez zbytečné režie. Vše mělo jasný termín, práce byla rychlá a přesná a nemuseli jsme nic zbytečně řešit.",
     name: "Daniel Okafor",
     role: "Head of Brand, Hearth Coffee",
     initials: "DO",
   },
   {
     quote:
-      "Náš starý web brzdil byznys. Ten nový se nám každý měsíc zaplatí v rezervacích, o které jsme dřív přicházeli.",
+      "Náš starý web brzdil byznys. Nový web se nám začal vracet hned v prvních měsících díky rezervacím, o které jsme dřív přicházeli.",
     name: "Sofie Lindqvistová",
     role: "Majitelka, Tempo Strength",
     initials: "SL",
   },
   {
     quote:
-      "Pixelově přesné, rychlé, přístupné a snadné na údržbu. Mít všechno čtyři najednou je vzácné. Už jen předávací dokumentace stála za to.",
+      "Pixelově přesné, rychlé, přístupné a snadné na údržbu. Mít všechny čtyři najednou je vzácné. Už jen předávací dokumentace stála za to.",
     name: "Jordan Mei",
     role: "CTO, Folio Magazine",
     initials: "JM",
