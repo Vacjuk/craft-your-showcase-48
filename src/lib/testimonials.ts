@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Rychlost provedení byla neuvěřitelná. Po relaunchi nám stoupla konverze o 40 % a tým konečně dokáže aktualizovat obsah bez vývojáře.",
+      "Rychlost provedení byla neuvěřitelná. Po relaunchi nám stoupla konverze o 35 % a tým konečně dokáže aktualizovat obsah bez vývojáře.",
     name: "Marek Thorn",
     role: "Kreativní ředitel, Linea",
     initials: "MT",
