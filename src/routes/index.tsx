@@ -137,7 +137,7 @@ function Home() {
           </p>
           <div className="mt-12 grid grid-cols-2 gap-8 md:grid-cols-4">
             {[
-              ["60+", "Spuštěných webů"],
+              ["70+", "Spuštěných webů"],
               ["98", "Průměrné Lighthouse skóre"],
               ["4 týdny", "Obvyklý časový plán"],
               ["100%", "Nezávislé vlastnictví"],
